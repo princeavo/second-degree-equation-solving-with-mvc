@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+header {
+  height: 10%;
+  margin-bottom: -10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-end: 30px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: 0.5s;
+  color: rgb(107, 51, 107);
+}
+
+em {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+main {
+  background: url(../images/fond.png) no-repeat;
+  font-weight: 500;
+  background-size: cover;
+  padding-inline: 30px;
+  margin-bottom: 0px;
+}
+
+.accueil p {
+  text-align: justify;
+}
+
+.accueil {
+  margin-bottom: 80px;
+}
+
+form {
+  padding-bottom: 80px;
+}
+
+strong {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.coeff {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: darkgray;
+}
+
+.box {
+  width: 50%;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: darkgray;
+}
+
+input[type='submit']{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+legend {
+  border: 1px solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: white;
+  width: 15%;
+  padding-inline-start: 15px;
+}
+
+footer p {
+  bottom: 0;
+  right: 0;
+  text-align: end;
+  position: fixed;
+}
+
+footer {
+  height: 20%;
+}
